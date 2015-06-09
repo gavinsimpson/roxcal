@@ -1,0 +1,21 @@
+Package: roxcal
+Type: Package
+Title: Parse OxCal Files
+Version: 0.0-1
+Date: 2015-06-09
+Authors@R: person(given = c("Gavin", "L."),
+    family = "Simpson",
+    role = c("aut","cre"),
+    email = "ucfagls@gmail.com")
+Maintainer: Gavin L. Simpson <ucfagls@gmail.com>
+Description: Parse OxCal radiocarbon dating age-model output files.
+Imports:
+    v8
+Suggests:
+    testthat,
+    knitr
+VignetteBuilder: knitr
+License: GPL-2
+URL: https://github.com/gavinsimpson/roxcal/
+BugReports: https://github.com/gavinsimpson/roxcal/issues
+ByteCompile: true
