@@ -10,7 +10,7 @@ Authors@R: person(given = c("Gavin", "L."),
 Maintainer: Gavin L. Simpson <ucfagls@gmail.com>
 Description: Parse OxCal radiocarbon dating age-model output files.
 Imports:
-    v8
+    V8
 Suggests:
     testthat,
     knitr
