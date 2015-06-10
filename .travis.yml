@@ -4,6 +4,9 @@ sudo: true
 
 language: r
 
+r_binary_packages:
+ - v8
+
 r_build_args: " --compact-vignettes=gs+qpdf"
 r_check_args: " --as-cran"
 
