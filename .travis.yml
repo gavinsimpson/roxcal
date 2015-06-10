@@ -1,6 +1,6 @@
 # Modified travis.yml set-up for the new native R support on Travis CI
 
-sudo: false
+sudo: true
 
 language: r
 
