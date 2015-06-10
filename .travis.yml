@@ -1,5 +1,7 @@
 # Modified travis.yml set-up for the new native R support on Travis CI
 
+sudo: false
+
 language: r
 
 r_build_args: " --compact-vignettes=gs+qpdf"
